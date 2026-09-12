@@ -1,3 +1,17 @@
-# Godot 4+ specific ignores
+# Godot 4
 .godot/
-/android/
+
+# Godot editor metadata
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Exported builds
+export/
+exports/
